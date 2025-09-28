@@ -28,13 +28,13 @@ Mysql master em đã cài trước bằng docker, giờ tận dụng lại nên 
 
 ### Câu 4: Bạn nhận được thông tin trạng thái gì? Làm thế nào để bạn biết cấu hình là OK?
 
-![Slave](images/cau4.png)
+![Slave](images/Cau4.png)
 
 Trạng thái hiển thị Slave_IO_Running: Yes và Slave_SQL_Running: Yes. Không có lỗi trong Last_Error, điều đó cho thấy replication hoạt động bình thường.
 
 ### Câu 5: Trên máy Slave, hãy kiểm tra xem dữ liệu mới được chèn có được sao chép (replicate) từ Master sang Slave chưa. Bạn đã sử dụng lệnh nào?
 
-![Replication](images/cau5.png)
+![Replication](images/Cau5.png)
 
 Đầu tiên trên Mysql mater: servername là hunglt (terminal bên trái) và Mysql Slave: servername là hungtest (terminal bên phải) cùng chạy câu query:
 
